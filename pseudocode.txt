@@ -8,3 +8,21 @@ PROCEDURE barang()
     STORE "harga" with CALCULATE "hargaBarang" multipy by "jumlahBarang"
     RETURN "harga"
 END PROCEDURE
+READ AND WRITE "addBarang" with string
+WHILE "addBarang" = y
+    ADD "barang" by 1
+    CALL barang()
+
+STORE "hargaTotal" with CALCULATE "harga[i]" plus "harga[i+1]"
+PRINT "hargaTotal"
+
+IF "hargaTotal" more than or equal 100000
+    STORE "diskon" with CALCULATE "hargaTotal" multiply by 10%
+ELSE
+    STORE "diskon" with "hargaTotal"
+
+PRINT "diskon"
+
+READ AND WRITE "bayar" with number
+STORE "kembalian" with CALCULATE "bayar" minus "diskon"
+PRINT "kembalian"
