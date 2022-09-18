@@ -1,46 +1,38 @@
 <mxfile host="65bd71144e">
     <diagram id="AMTsAZ496Q9VpqLua_Oq" name="Page-1">
-        <mxGraphModel dx="765" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="619" dy="298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="75" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="74">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="260" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="21">
+                <mxCell id="83" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="82">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Masukkan kodeBarang, namaBarang, hargaBarang" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="130" width="180" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="3">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="480" y="280"/>
-                            <mxPoint x="480" y="160"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="3" value="Masukkan barang(namaBarang, hargaBarang, jumlahBarang)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="220" width="180" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="25">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="apakah masih ada barang?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="240" width="120" height="80" as="geometry"/>
+                <mxCell id="79" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="260" width="30" height="20" as="geometry"/>
+                <mxCell id="21" value="apakah masih ada barang?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="420" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="40">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="Hitung keselurhan hargaTotal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="360" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="260" y="540" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="340" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="320" y="520" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="40" target="42">
                     <mxGeometry relative="1" as="geometry"/>
@@ -49,52 +41,77 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="Apakah ada diskon?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="460" width="80" height="80" as="geometry"/>
+                    <mxGeometry x="280" y="640" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="42" target="50">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="Hitung besar diskon" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="470" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="420" y="650" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="385" y="470" width="30" height="20" as="geometry"/>
+                    <mxGeometry x="390" y="660" width="30" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47" target="53">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="Menampilkan total harga belanja" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="580" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="260" y="760" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="560" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="320" y="720" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="47">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="Hitung total keseluruhan belanja setelah diskon" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="580" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="420" y="760" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="53" target="56">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="Masukkan uang pembayaran" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="260" y="680" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="260" y="860" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="56" target="70">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="kembalian = bayar-jumlah" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="490" y="680" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="490" y="860" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="70" target="72">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="Cetak Struk Belanja&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="495" y="800" width="110" height="60" as="geometry"/>
+                    <mxGeometry x="495" y="980" width="110" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="Finish" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="800" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="300" y="980" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="74" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="barang = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="500" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="barang = ++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="440" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="82" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="harga = hargaBarang * jumlahBarang" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
