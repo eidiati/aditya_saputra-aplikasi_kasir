@@ -1,0 +1,10 @@
+PROGRAM AplikasiKasir
+
+PROCEDURE barang()
+    READ AND WRITE "namaBarang" with string
+    READ AND WRITE "hargaBarang" with number 
+    READ AND WRITE "jumlahBarang" with number
+    READ "harga" with number
+    STORE "harga" with CALCULATE "hargaBarang" multipy by "jumlahBarang"
+    RETURN "harga"
+END PROCEDURE
